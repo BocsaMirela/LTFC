@@ -9,7 +9,7 @@ public class Suma {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         double suma = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i=i+1) {
             System.out.print("Give the next number: ");
             double nr = input.nextDouble();
             suma = suma + nr;
