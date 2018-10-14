@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Suma {
-    final static double PI = 3.14;
 
     public static void main(String[] args) {
 
@@ -9,10 +8,12 @@ public class Suma {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         double suma = 0;
-        for (int i = 0; i < n; i=i+1) {
+        int i = 0;
+        while (i < n) {
             System.out.print("Give the next number: ");
             double nr = input.nextDouble();
             suma = suma + nr;
+            i = i + 1;
         }
 
         System.out.println("Suma = " + suma);
