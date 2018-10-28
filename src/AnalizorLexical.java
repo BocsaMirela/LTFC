@@ -8,6 +8,7 @@ public class AnalizorLexical {
     private AtomDetector atomDetector;
     private Vector<FIPElement> tableFIP;
     private HashMap<Integer, String> tableTS;
+
     Vector<String> athoms;
 
     public AnalizorLexical(String filename) {
@@ -20,7 +21,7 @@ public class AnalizorLexical {
 
     private void buildCodeTable() {
         codficationTable.put("identificator", 0);
-        codficationTable.put("const", 1);
+        codficationTable.put("constante", 1);
         codficationTable.put("+", 2);
         codficationTable.put("-", 3);
         codficationTable.put("/", 4);
@@ -38,8 +39,8 @@ public class AnalizorLexical {
         codficationTable.put("[", 16);
         codficationTable.put("]", 17);
         codficationTable.put(":", 18);
-        codficationTable.put(".", 19);
-        codficationTable.put("/n", 20);
+        codficationTable.put("const", 19);
+        codficationTable.put("\n", 20);
         codficationTable.put(" ", 21);
         codficationTable.put("readln", 22);
         codficationTable.put("writeln", 23);
@@ -56,11 +57,13 @@ public class AnalizorLexical {
         codficationTable.put("end", 35);
         codficationTable.put("'", 35);
         codficationTable.put(";", 35);
+        codficationTable.put("end.", 36);
+
     }
 
     public void generateTables() {
         for (String athom : athoms) {
-            if (codficationTable.containsKey(athom)) {// e var, op sau separator => cod -1
+            if (codficationTable.containsKey(athom.toLowerCase())) {// e var, op sau separator => cod -1
                 tableFIP.add(new FIPElement(codficationTable.get(athom), -1));
             } else {
                 int pos = cautaTS(athom);
@@ -138,7 +141,7 @@ public class AnalizorLexical {
     public void printERRORS(final String fileName) throws IOException {
         BufferedWriter br = new BufferedWriter(new FileWriter(fileName));
         for (LexicalError a : atomDetector.getErrors()) {
-            br.write(a.toString()+ "\n");
+            br.write(a.toString() + "\n");
         }
         br.close();
 
