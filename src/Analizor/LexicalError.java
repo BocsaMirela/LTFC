@@ -1,3 +1,5 @@
+package Analizor;
+
 public class LexicalError {
     private String msg;
     private int line;
@@ -15,7 +17,7 @@ public class LexicalError {
 
     @Override
     public String toString() {
-        return "LexicalError{" +
+        return "Analizor.LexicalError{" +
                 "msg='" + msg + '\'' +
                 ", line=" + line +
                 ", col=" + col +

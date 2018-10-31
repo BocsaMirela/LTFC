@@ -1,3 +1,5 @@
+package Analizor;
+
 import java.util.Objects;
 
 public class FIPElement {

@@ -1,3 +1,5 @@
+package Analizor;
+
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -70,7 +72,7 @@ public class AnalizorLexical {
                 if (pos == -1) {
                     pos = addTS(athom);
                     if (isConst(athom))
-                        tableFIP.add(new FIPElement(1, pos));
+                       tableFIP.add(new FIPElement(1, pos));
                     else
                         tableFIP.add(new FIPElement(0, pos));
                 }
