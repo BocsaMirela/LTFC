@@ -87,4 +87,43 @@ public class AutomatFinitDeterminist {
             alphabet.add(tranzitie[1]);
         }
     }
+
+    public boolean accepts(String sequence) {
+        String curentState = initialState;
+        while (sequence.length() > 0) {
+            String first = sequence.substring(0, 1);
+            String nextState = getNextState(curentState, first);
+            if (nextState!=null){
+                curentState=nextState;
+                sequence=sequence.substring(1);
+            }else{
+                return false;
+            }
+        }
+        return finalStates.contains(curentState);
+    }
+
+    private String getNextState(String curentState, String first) {
+        for (Transition tr : transitions)
+            if (tr.getInitialState().equals(curentState) && tr.getValue().equals(first))
+                return tr.getFinalState();
+        return null;
+    }
+
+    public String getTheLongestAcceptedSequence(String sequence){
+        String curentState = initialState;
+        String acceptedSeq="";
+        while (sequence.length() > 0) {
+            String first = sequence.substring(0, 1);
+            String nextState = getNextState(curentState, first);
+            if (nextState!=null){
+                curentState=nextState;
+                sequence=sequence.substring(1);
+                acceptedSeq=acceptedSeq.concat(first);
+            }else{
+              break;
+            }
+        }
+        return acceptedSeq;
+    }
 }

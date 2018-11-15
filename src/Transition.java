@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Transition implements Comparable<Transition> {
     private String initialState;
     private String finalState;
@@ -41,5 +43,20 @@ public class Transition implements Comparable<Transition> {
     @Override
     public String toString() {
         return "T("+initialState +" , "+value+")={"+finalState+"}\n";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Transition that = (Transition) o;
+        return Objects.equals(initialState, that.initialState) &&
+                Objects.equals(finalState, that.finalState) &&
+                Objects.equals(value, that.value);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(initialState, finalState, value);
     }
 }

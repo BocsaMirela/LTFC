@@ -1,3 +1,5 @@
+package problems;
+
 import java.util.Scanner;
 
 public class Suma {
@@ -16,6 +18,6 @@ public class Suma {
             i = i + 1;
         }
 
-        System.out.println("Suma = " + suma);
+        System.out.println("problems.Suma = " + suma);
     }
 }

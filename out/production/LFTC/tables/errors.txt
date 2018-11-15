@@ -1,0 +1,7 @@
+Analizor.LexicalError{msg='- Is not in the alphabet', line=6, col=15}
+Analizor.LexicalError{msg='; Is not in the alphabet', line=6, col=17}
+Analizor.LexicalError{msg=' Is not in the alphabet', line=6, col=18}
+Analizor.LexicalError{msg='
+ Is not in the alphabet', line=6, col=19}
+Analizor.LexicalError{msg='  Is not in the alphabet', line=6, col=24}
+Analizor.LexicalError{msg='2perimetru Is not a literal', line=9, col=20}
