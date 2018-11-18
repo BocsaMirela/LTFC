@@ -1,3 +1,5 @@
+package Automat;
+
 import java.util.Objects;
 
 public class Transition implements Comparable<Transition> {

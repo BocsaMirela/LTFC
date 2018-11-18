@@ -1,4 +1,5 @@
-import java.io.File;
+package Automat;
+
 import java.util.Scanner;
 
 public class UI {
