@@ -80,6 +80,7 @@ public class AnalizorLexical {
             BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("D:\\RepoUniversity\\LTFC\\LFTC\\src\\program"), Charset.forName("UTF-8")));
             String line = reader.readLine().trim();
             int lin = 1;
+            char next = '?';
             while (line != null && line.length() > 0) {
                 while (line != null && line.length() > 0) {
                     line = line.trim();
@@ -121,12 +122,15 @@ public class AnalizorLexical {
                         line = line.substring(maybeIden.length());
                     } else if (!maybeConts.equals("")) { ///e constanta
                         line = line.substring(maybeConts.length());
-                        char next = '?';
                         if (line.length() > 1)
                             next = line.charAt(0);
-                        if (!codficationTable.containsKey(String.valueOf(next))) {
-                            tableError.add(new LexicalError("Incorect constant", lin, 0));
-                            while (!codficationTable.containsKey(String.valueOf(next)) && line != null) {
+                        if (!codficationTable.containsKey(String.valueOf(next)) || !afdConsts.accepts(maybeConts)) {
+                            if (!codficationTable.containsKey(String.valueOf(next)))
+                                tableError.add(new LexicalError("Incorect identificator", lin, 0));
+                            if (!afdConsts.accepts(maybeConts)) {
+                                tableError.add(new LexicalError("Incorect constant", lin, 0));
+                            }
+                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length()>0) {
                                 line = line.substring(1);
                                 next = line.charAt(0);
                             }
@@ -140,10 +144,11 @@ public class AnalizorLexical {
                         }
                     } else if (maybeR.length() > maybeInt.length()) { //real
                         line = line.substring(maybeR.length());
-                        char next = line.charAt(0);
+                        if (line.length() > 0)
+                            next = line.charAt(0);
                         if (!codficationTable.containsKey(String.valueOf(next))) {
-                            tableError.add(new LexicalError("Incorect constant", lin, 0));
-                            while (!codficationTable.containsKey(String.valueOf(next)) && line != null) {
+                            tableError.add(new LexicalError("Incorect identificator", lin, 0));
+                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length()>0) {
                                 line = line.substring(1);
                                 next = line.charAt(0);
                             }
@@ -157,10 +162,11 @@ public class AnalizorLexical {
                         }
                     } else if (maybeInt.length() > 0) { // e int
                         line = line.substring(maybeInt.length());
-                        char next = line.charAt(0);
+                        if (line.length() > 0)
+                            next = line.charAt(0);
                         if (!codficationTable.containsKey(String.valueOf(next))) {
-                            tableError.add(new LexicalError("Incorect constant", lin, 0));
-                            while (!codficationTable.containsKey(String.valueOf(next)) && line != null) {
+                            tableError.add(new LexicalError("Incorect idenficator", lin, 0));
+                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length()>0) {
                                 line = line.substring(1);
                                 next = line.charAt(0);
                             }

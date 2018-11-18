@@ -24,7 +24,6 @@ raza
 ;
 :
 =
-2
 *
 PI
 ;
@@ -51,9 +50,7 @@ aria
 ;
 a
 =
-'
-aaaaaa
-'
+jhh
 writeln
 (
 perimetru

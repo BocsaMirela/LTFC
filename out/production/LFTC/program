@@ -4,11 +4,13 @@
  const PI=3.14;
  begin
         readln(raza);
-        2perimetru:=2*PI;
+        2perimetru:=2.00o*PI;
         perimetru:=perimetru*raza;
         aria:=raza*raza;
         aria:=PI*aria;
-        a='aaaaaa'
+        a='aaaaaa
+        jhh
+        '
         writeln(perimetru);
         writeln(aria);
         readln();

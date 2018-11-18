@@ -1,1 +1,5 @@
-Analizor.LexicalError{msg='Incorect constant', line=7, col=0}
+Analizor.LexicalError{msg='Incorect idenficator', line=7, col=0}
+Analizor.LexicalError{msg='Incorect identificator', line=7, col=0}
+Analizor.LexicalError{msg='Incorect constant', line=11, col=0}
+Analizor.LexicalError{msg='Incorect constant'
+, line=13, col=0}
