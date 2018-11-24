@@ -22,8 +22,10 @@ readln
 raza
 )
 ;
+perimetru
 :
 =
+2
 *
 PI
 ;
@@ -50,7 +52,15 @@ aria
 ;
 a
 =
-jhh
+&123
+;
+a
+=
+%0001
+;
+c
+=
+$1a1
 writeln
 (
 perimetru

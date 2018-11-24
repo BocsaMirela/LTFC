@@ -3,18 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="c00647d5-aea3-4111-b68b-c308a6d07436" name="Default Changelist" comment="create analizor 2 ts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LFTC/AnalizorAutomatom/AnalizorLexical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/AnalizorAutomatom/AnalizorLexical.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LFTC/AnalizorAutomatom/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/AnalizorAutomatom/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LFTC/program" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/program" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LFTC/tables/FIP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/tables/FIP.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LFTC/tables/TS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/tables/TS.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LFTC/tables/atomi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/tables/atomi.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LFTC/tables/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/tables/errors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AFDCConstPascal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AFDCConstPascal.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnalizorAutomatom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalizorAutomatom/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/program" beforeDir="false" afterPath="$PROJECT_DIR$/src/program" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tables/FIP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/FIP.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tables/TS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/TS.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tables/atomi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/atomi.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tables/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/errors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$cumentation.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +43,7 @@
     <session id="-1167155914">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -49,6 +51,7 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.70" value="1" />
           <entry key="project.open.time.72" value="1" />
@@ -56,38 +59,38 @@
           <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="AFDCPlusPlus" value="481" />
           <entry key="dummy" value="4" />
-          <entry key="java" value="8551" />
-          <entry key="program" value="336" />
-          <entry key="txt" value="949" />
+          <entry key="java" value="8778" />
+          <entry key="program" value="377" />
+          <entry key="txt" value="955" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8551" />
-          <entry key="PLAIN_TEXT" value="1770" />
+          <entry key="JAVA" value="8778" />
+          <entry key="PLAIN_TEXT" value="1817" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AFDCPlusPlus" value="1" />
           <entry key="JAVA/AnalizorLexical" value="2" />
-          <entry key="java" value="44" />
+          <entry key="java" value="47" />
           <entry key="odt#" value="1" />
-          <entry key="program" value="8" />
-          <entry key="txt" value="59" />
+          <entry key="program" value="9" />
+          <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="44" />
-          <entry key="PLAIN_TEXT" value="69" />
+          <entry key="JAVA" value="47" />
+          <entry key="PLAIN_TEXT" value="75" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
@@ -102,22 +105,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Analizor/AnalizorLexical.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Automat/AutomatFinitDeterminist.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,31 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/program">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tables/errors.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AFDCConstPascal.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tables/FIP.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -160,20 +128,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tables/TS.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="153">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/LexicalError.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tables/errors.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tables/FIP.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tables/atomi.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AFDCConstPascal.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -181,22 +174,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="168" column="105" selection-start-line="168" selection-start-column="105" selection-end-line="168" selection-end-column="105" />
+            <state relative-caret-position="1582">
+              <caret line="173" column="79" selection-start-line="173" selection-start-column="79" selection-end-line="173" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#9435#9436#0" expanded="true" />
-                <element signature="e#9474#9475#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tables/atomi.txt">
+        <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="221">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,13 +249,14 @@
         <option value="$PROJECT_DIR$/src/automatonMyIntegers.txt" />
         <option value="$PROJECT_DIR$/src/automatonMyReals.txt" />
         <option value="$PROJECT_DIR$/src/automatonConsts.txt" />
-        <option value="$PROJECT_DIR$/src/AnalizorAutomatom/Main.java" />
         <option value="$PROJECT_DIR$/src/tables/atomi.txt" />
         <option value="$PROJECT_DIR$/src/AnalizorAutomatom/AtomDetector.java" />
         <option value="$PROJECT_DIR$/src/AnalizorAutomatom/titit.java" />
-        <option value="$PROJECT_DIR$/src/program" />
-        <option value="$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java" />
         <option value="$PROJECT_DIR$/src/tables/errors.txt" />
+        <option value="$PROJECT_DIR$/src/AnalizorAutomatom/Main.java" />
+        <option value="$PROJECT_DIR$/src/AFDCConstPascal.txt" />
+        <option value="$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java" />
+        <option value="$PROJECT_DIR$/src/program" />
       </list>
     </option>
   </component>
@@ -288,7 +283,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,12 +312,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542556139731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542609046400" />
     <property name="last.edited.regexp" value="000.4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MIRPR/MIRPR" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -450,7 +445,8 @@
       <workItem from="1540994578335" duration="11823000" />
       <workItem from="1541398501301" duration="620000" />
       <workItem from="1541529083794" duration="81000" />
-      <workItem from="1542318609004" duration="25170000" />
+      <workItem from="1542318609004" duration="26371000" />
+      <workItem from="1542565285154" duration="2428000" />
     </task>
     <task id="LOCAL-00001" summary="specification">
       <created>1539540346032</created>
@@ -491,11 +487,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96961000" />
+    <option name="totallyTimeSpent" value="100590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21558245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -506,7 +501,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1816694" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.1816694" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5237316" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -516,16 +511,16 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3290469" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3290469" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,9 +589,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TSElement.java" />
-    <entry file="file://$PROJECT_DIR$/.~lock.Specification.odt#">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.~lock.Specification.odt#" />
     <entry file="file://$PROJECT_DIR$/src/tables/TSI.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -654,9 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/LexicalError.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Automat/Transition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -709,20 +699,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/titit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/titit.java" />
     <entry file="file://$PROJECT_DIR$/src/automatonMyIntegers.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -747,36 +724,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/AtomDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="166" column="17" lean-forward="true" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6921#6922#0" expanded="true" />
-            <element signature="e#6992#6993#0" expanded="true" />
-            <element signature="e#7864#7865#0" expanded="true" />
-            <element signature="e#7935#7936#0" expanded="true" />
-            <element signature="e#8475#8476#0" expanded="true" />
-            <element signature="e#8504#8505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/AtomDetector.java" />
     <entry file="file://$PROJECT_DIR$/src/Analizor/AnalizorLexical.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+        <state relative-caret-position="1156">
+          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Automat/AutomatFinitDeterminist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -786,61 +748,62 @@
     <entry file="file://$PROJECT_DIR$/src/tables/atomi.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Automat/AutomatFinitDeterminist.java">
+    <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/LexicalError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="17">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tables/FIP.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/tables/errors.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/program">
+    <entry file="file://$PROJECT_DIR$/src/AFDCConstPascal.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="438">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="168" column="105" selection-start-line="168" selection-start-column="105" selection-end-line="168" selection-end-column="105" />
+        <state relative-caret-position="1582">
+          <caret line="173" column="79" selection-start-line="173" selection-start-column="79" selection-end-line="173" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#9435#9436#0" expanded="true" />
-            <element signature="e#9474#9475#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/program">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tables/TS.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tables/errors.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AFDCConstPascal.txt">
+    <entry file="file://$PROJECT_DIR$/src/tables/FIP.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

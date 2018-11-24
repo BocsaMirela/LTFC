@@ -18,18 +18,22 @@ public class AnalizorLexical {
     AutomatFinitDeterminist afdInt;
     AutomatFinitDeterminist afdR;
     AutomatFinitDeterminist afdConsts;
+    AutomatFinitDeterminist afdConstsPascal;
+    String file;
 
     Vector<String> athoms;
 
-    public AnalizorLexical(String filename, AutomatFinitDeterminist identificatoriAFD, AutomatFinitDeterminist integersAFD, AutomatFinitDeterminist realsAFD, AutomatFinitDeterminist stringsAFD) {
+    public AnalizorLexical(String filename, AutomatFinitDeterminist identificatoriAFD, AutomatFinitDeterminist integersAFD, AutomatFinitDeterminist realsAFD, AutomatFinitDeterminist stringsAFD, AutomatFinitDeterminist afdCPas) {
         afdIden = identificatoriAFD;
         afdInt = integersAFD;
         afdR = realsAFD;
+        afdConstsPascal = afdCPas;
         afdConsts = stringsAFD;
         tableFIP = new Vector<>();
         tableError = new Vector<>();
         tableAthoms = new Vector<>();
         tableTS = new HashMap<Integer, String>();
+        file=filename;
         buildCodeTable();
     }
 
@@ -77,7 +81,7 @@ public class AnalizorLexical {
 
     public void generateTables() {
         try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream("D:\\RepoUniversity\\LTFC\\LFTC\\src\\program"), Charset.forName("UTF-8")));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), Charset.forName("UTF-8")));
             String line = reader.readLine().trim();
             int lin = 1;
             char next = '?';
@@ -88,13 +92,34 @@ public class AnalizorLexical {
                     String maybeIden = afdIden.getTheLongestAcceptedSequence(line);
                     String maybeConts = afdConsts.getTheLongestAcceptedSequence(line);
                     String maybeInt = afdInt.getTheLongestAcceptedSequence(line);
+                    String maybeConstPascal = afdConstsPascal.getTheLongestAcceptedSequence(line);
                     String maybeSep = "";
                     if (line.length() > 0)
                         maybeSep = String.valueOf(line.charAt(0));
                     String maybeSepD = "";
                     if (line.length() > 1)
                         maybeSepD = String.valueOf(line.charAt(0)).concat(String.valueOf(line.charAt(1)));
-                    if (codficationTable.containsKey(maybeSep.toLowerCase())) {// e var, op sau separator => cod -1
+                    if (maybeConstPascal.length() > 0 && maybeConstPascal.length()>maybeR.length()) { // e constanta numerica in Pascal
+                        line = line.substring(maybeConstPascal.length());
+                        if (line.length() > 0)
+                            next = line.charAt(0);
+                        if (!codficationTable.containsKey(String.valueOf(next))) {
+                            tableError.add(new LexicalError("Incorect const Pascal", lin, 0));
+                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length() > 0) {
+                                line = line.substring(1);
+                                if (line.length()>1)
+                                next = line.charAt(0);
+                            }
+                        } else {
+                            tableAthoms.add(maybeConstPascal);
+                            int pos = cautaTS(maybeConstPascal);
+                            if (pos == -1) {
+                                pos = addTS(maybeConstPascal);
+                                tableFIP.add(new FIPElement(1, pos));
+                            }
+                        }
+                    }
+                    else if (codficationTable.containsKey(maybeSep.toLowerCase())) {// e var, op sau separator => cod -1
                         tableAthoms.add(maybeSep);
                         line = line.substring(1);
                         tableFIP.add(new FIPElement(codficationTable.get(maybeSep), -1));
@@ -130,7 +155,7 @@ public class AnalizorLexical {
                             if (!afdConsts.accepts(maybeConts)) {
                                 tableError.add(new LexicalError("Incorect constant", lin, 0));
                             }
-                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length()>0) {
+                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length() > 0) {
                                 line = line.substring(1);
                                 next = line.charAt(0);
                             }
@@ -148,8 +173,9 @@ public class AnalizorLexical {
                             next = line.charAt(0);
                         if (!codficationTable.containsKey(String.valueOf(next))) {
                             tableError.add(new LexicalError("Incorect identificator", lin, 0));
-                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length()>0) {
+                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length() > 0) {
                                 line = line.substring(1);
+                                if(line.length()>0)
                                 next = line.charAt(0);
                             }
                         } else {
@@ -166,7 +192,7 @@ public class AnalizorLexical {
                             next = line.charAt(0);
                         if (!codficationTable.containsKey(String.valueOf(next))) {
                             tableError.add(new LexicalError("Incorect idenficator", lin, 0));
-                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length()>0) {
+                            while (!codficationTable.containsKey(String.valueOf(next)) && line.length() > 0) {
                                 line = line.substring(1);
                                 next = line.charAt(0);
                             }
@@ -178,6 +204,7 @@ public class AnalizorLexical {
                                 tableFIP.add(new FIPElement(1, pos));
                             }
                         }
+
                     } else {
                         line = line.substring(1);
                         tableError.add(new LexicalError("Incorect constant", lin, 0));
