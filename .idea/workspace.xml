@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c00647d5-aea3-4111-b68b-c308a6d07436" name="Default Changelist" comment="create analizor 2 ts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Documentation.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LFTC/AnalizorAutomatom/AnalizorLexical.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/AnalizorAutomatom/AnalizorLexical.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LFTC/AnalizorAutomatom/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/AnalizorAutomatom/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LFTC/program" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/program" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LFTC/tables/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LFTC/tables/errors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AFDCConstPascal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AFDCConstPascal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnalizorAutomatom/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnalizorAutomatom/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/program" beforeDir="false" afterPath="$PROJECT_DIR$/src/program" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tables/FIP.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/FIP.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tables/TS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/TS.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tables/atomi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/atomi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tables/errors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tables/errors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$cumentation.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +29,14 @@
     <session id="-1167155914">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.204" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.320" value="1" />
+          <entry key="project.open.time.338" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.47" value="2" />
           <entry key="project.open.time.55" value="1" />
@@ -59,7 +48,7 @@
           <entry key="project.open.time.86" value="1" />
           <entry key="project.open.time.87" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -81,23 +70,23 @@
         <counts>
           <entry key="AFDCPlusPlus" value="1" />
           <entry key="JAVA/AnalizorLexical" value="2" />
-          <entry key="java" value="47" />
+          <entry key="java" value="49" />
           <entry key="odt#" value="1" />
           <entry key="program" value="9" />
-          <entry key="txt" value="64" />
+          <entry key="txt" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="47" />
-          <entry key="PLAIN_TEXT" value="75" />
+          <entry key="JAVA" value="49" />
+          <entry key="PLAIN_TEXT" value="77" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="2" />
-          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.create.new" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -105,58 +94,41 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Automat/AutomatFinitDeterminist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/program">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tables/TS.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="7" column="7" selection-start-line="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/LexicalError.java">
+        <entry file="file://$PROJECT_DIR$/src/tables/FIP.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tables/TSC.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tables/TSI.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tables/errors.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tables/FIP.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tables/atomi.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
+            <state relative-caret-position="1292">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
@@ -165,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AFDCConstPascal.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="680">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -174,11 +146,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1582">
+            <state relative-caret-position="2839">
               <caret line="173" column="79" selection-start-line="173" selection-start-column="79" selection-end-line="173" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Analizor/AnalizorLexical.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="104" column="39" lean-forward="true" selection-start-line="104" selection-start-column="39" selection-end-line="104" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/problems/Cerc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -215,7 +208,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="LFTCLab2" />
+        <entry key="$PROJECT_DIR$" value="LFTCLab2.2" />
       </map>
     </option>
   </component>
@@ -299,6 +292,12 @@
               <item name="LFTC" type="b2602c69:ProjectViewProjectNode" />
               <item name="LFTC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Analizor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LFTC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LFTC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AnalizorAutomatom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -320,7 +319,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542609046400" />
     <property name="last.edited.regexp" value="000.4" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MIRPR/MIRPR" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/lftc_si_mobile/LFTC/Lab4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -447,6 +446,9 @@
       <workItem from="1541529083794" duration="81000" />
       <workItem from="1542318609004" duration="26371000" />
       <workItem from="1542565285154" duration="2428000" />
+      <workItem from="1543059232058" duration="1485000" />
+      <workItem from="1543143586170" duration="3972000" />
+      <workItem from="1543161796418" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="specification">
       <created>1539540346032</created>
@@ -487,12 +489,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100590000" />
+    <option name="totallyTimeSpent" value="106047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21558245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19364598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -574,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/problems/Cerc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -590,16 +585,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TSElement.java" />
     <entry file="file://$PROJECT_DIR$/.~lock.Specification.odt#" />
-    <entry file="file://$PROJECT_DIR$/src/tables/TSI.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tables/TSC.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="uml://JAVA/AnalizorLexical">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -725,19 +710,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/AtomDetector.java" />
-    <entry file="file://$PROJECT_DIR$/src/Analizor/AnalizorLexical.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="71" column="32" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tables/errors.txt" />
     <entry file="file://$PROJECT_DIR$/src/Automat/AutomatFinitDeterminist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
+        <state relative-caret-position="493">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -745,17 +721,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tables/atomi.txt">
+    <entry file="file://$PROJECT_DIR$/src/program">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/LexicalError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AFDCConstPascal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -769,19 +752,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tables/errors.txt">
+    <entry file="file://$PROJECT_DIR$/src/problems/Cerc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tables/atomi.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tables/TSC.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AFDCConstPascal.txt">
+    <entry file="file://$PROJECT_DIR$/src/tables/TSI.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tables/TS.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" selection-start-line="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tables/FIP.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AnalizorAutomatom/AnalizorLexical.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1582">
+        <state relative-caret-position="-510">
           <caret line="173" column="79" selection-start-line="173" selection-start-column="79" selection-end-line="173" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -789,22 +800,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/program">
+    <entry file="file://$PROJECT_DIR$/src/Analizor/AnalizorLexical.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="104">
+          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tables/TS.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tables/FIP.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
